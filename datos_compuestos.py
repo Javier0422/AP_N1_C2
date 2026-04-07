@@ -11,13 +11,22 @@ print(lista)
 print(type(lista))
 
 print(lista[0])
-print(lista[2])
 print(lista[1])
+print(lista[2])
 
 print(type(lista[0]))
 print(type(lista[1]))
 print(type(lista[2]))
 
-#lista[1] = "Nuevo Valor" # Cambio válido, acceso al elemento por ÍNDICE
-#print(lista[1])
-#print(f"{lista}\n")
+str_nombre = input('Ingrese su nombre: ')
+lista[0] = str_nombre # Cambio válido, acceso al elemento por ÍNDICE
+print(lista[0])
+print(f"{lista}\n")
+
+# Reemplace el segundo elemento de la lista por su edad
+# La edad debe ser un numero entero
+
+str_edad = input('Ingrese su edad: ')
+lista[1] = int(str_edad) # Cambio válido, acceso al elemento por ÍNDICE
+print(lista[1])
+print(f"{lista}\n")
