@@ -30,3 +30,19 @@ str_edad = input('Ingrese su edad: ')
 lista[1] = int(str_edad) # Cambio válido, acceso al elemento por ÍNDICE
 print(lista[1])
 print(f"{lista}\n")
+
+# Los DICCIONARIOS son colecciones no ordenadas de pares KEY : VALUE, usando 2 espacios de memoria.
+# Permiten almacenar datos de manera que cada elemento pueda ser recuperado, actualizado o eliminado usando su clave.
+
+print("Trabajando con DICCIONARIOS.\n============================")
+diccionario = {
+    'nombre_personal' : 'Armando Casas',
+    'Está emocionado?' : True,
+    'Altura' : 1.73
+}
+print(type(diccionario))
+print(diccionario)
+print(diccionario['nombre_personal'])
+diccionario['nombre_personal'] = "Nuevo Valor" # Cambio válido, acceso al elemento por KEY
+print(diccionario['nombre_personal'])
+print(f"{diccionario}\n")
