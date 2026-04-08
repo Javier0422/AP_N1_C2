@@ -20,4 +20,3 @@ numero_2 = int(input('Ingrese el segundo numero entero: '))
 # Despues convertir a numero, viene la operacion aritmetica
 resultado = numero_1 + numero_2
 
-# 
