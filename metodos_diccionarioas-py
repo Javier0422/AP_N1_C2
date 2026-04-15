@@ -1,0 +1,31 @@
+# Definimos un nuevo diccn+ionario
+
+datos_personales = {
+    'nombre': 'Javier Morales' ,
+    'edad' : 18,
+    'titulo' : 'Analista programador'
+    }
+
+print(datos_personales)
+
+# El metodo KEYS permite obtener las claves del diccionario dict_keys
+claves = datos_personales.keys()
+print(claves)
+
+# El metodo GET permite obtener valores de datos por su clave
+nombre = datos_personales.get('nombre')
+print(nombre)
+
+#Agregamos elementos al diccionario definiendo una nueva clave con u nuevo valor
+rut = input('Ingrese su rut: ')
+datos_personales['rut'] = rut
+print(datos_personales)
+
+#Eliminamos elementos de un diccioanrio con el metodo POP
+# El método POP elimina un elemento por su CLAVE
+datos_personales.pop('rut')
+print(datos_personales)
+
+# El método CLEAR limpia completamente el diccionario
+datos_personales.clear()
+print(datos_personales)
