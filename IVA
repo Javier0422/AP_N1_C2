@@ -1,0 +1,2 @@
+numero = int(input('Ingrese un número para mostrar su tabla de multiplicar: '))
+mostrar_tabla_multiplicar(numero)
