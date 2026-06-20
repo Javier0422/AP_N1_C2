@@ -1,0 +1,1 @@
+listado_libros = [{'Nombre': 'Edward Richtofen', 'Correo': 'E.Richtofen@usuario.us', 'Telefono': '115-935-7890', 'rut': '12.345.678-9', 'Contraseña': 'Richtofen123'}]

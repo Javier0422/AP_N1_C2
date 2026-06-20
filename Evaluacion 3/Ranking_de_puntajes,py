@@ -1,0 +1,20 @@
+nombres = ["Ana", "Luis", "Carla", "Pedro", "Marta"]
+puntajes = [85, 92, 78, 95, 88]
+
+# Ordenar manualmente de mayor a menor (burbuja simple)
+n = len(puntajes)
+for i in range(n):
+    for j in range(n - 1):
+        if puntajes[j] < puntajes[j + 1]:
+            # Intercambiar puntajes
+            temp = puntajes[j]
+            puntajes[j] = puntajes[j + 1]
+            puntajes[j + 1] = temp
+            # Intercambiar nombres en el mismo orden
+            temp_nombre = nombres[j]
+            nombres[j] = nombres[j + 1]
+            nombres[j + 1] = temp_nombre
+
+print("Top 3 mejores resultados:")
+for i in range(3):
+    print(str(i + 1) + ". " + nombres[i] + " - " + str(puntajes[i]) + " puntos")
