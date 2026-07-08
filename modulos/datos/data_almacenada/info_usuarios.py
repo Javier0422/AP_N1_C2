@@ -1,0 +1,11 @@
+listado_usuarios = [
+    {'id': 1, 'nombre': 'Nuevo Usuario', 'correo': 'nuevo.usuario@test.test', 'telefono': '12345678', 'rut': '55.555.555-5', 'contrasena': b'$2b$12$Fur0pzGMUyU051in7Mmxae4R7kyf4sMd0BTMGltF9I5fQEs5WYBj.', 'habilitado': True}, 
+    {'id': 2, 'nombre': 'Profe', 'correo': 'erick.bailey@inacapmail.cl', 'telefono': '569 1234 5678', 'rut': '12.345.678-5', 'contrasena': b'$2b$12$a79PGAcPDd0a7Izqh78nAu/2fpz0dyN.mooRsNYmTvsL/24RUTW3m', 'habilitado': True}, 
+    {'id': 3, 'nombre': 'Test', 'correo': 'test@test.test', 'telefono': '569 1234 5678', 'rut': '44.444.444-4', 'contrasena': b'$2b$12$L3HLY.9XwMz18fR/mYjGWerINN7OsHAXvSufsak65aixZAtCOPG1i', 'habilitado': False}, 
+    {'id': 4, 'nombre': 'Nueva Prueba', 'correo': 'nueva.preuab@test.test', 'telefono': '123456789', 'rut': '22.222.222-2', 'contrasena': b'$2b$12$19uMai6bOIetKK8pIzIgjeiLTA1mv6JWCC5z3RxtGQY2o5RBsgkbq', 'habilitado': True}, 
+    {'id': 5, 'nombre': 'Nuevo Usuario', 'correo': 'test.test@test.test', 'telefono': '123456', 'rut': '11.222.333-4', 'contrasena': b'$2b$12$TdPQxqSUB9UmJofqo2CLXOAyVV4SznXrPVpgASn0yL1v/IVxsKLnS', 'habilitado': True}, 
+    {'id': 6, 'nombre': 'Probando Contraseña', 'correo': 'probando.contrasena@test.test', 'telefono': '123456789', 'rut': '22.333.444-5', 'contrasena': b'$2b$12$zm3TsVdccLG7m0ktuGMlQ.Vo9bO7QKr.UkuDgU3tnc7ZRkyodtxLO', 'habilitado': True}, 
+    {'id': 7, 'nombre': 'Probando Validación Rut', 'correo': 'probando.rut@test.test', 'telefono': '123456789', 'rut': '11.111.111-1', 'contrasena': b'$2b$12$zpgQ5kb61thMBZXEWrUgn.s3j/gzhb7aA8fnr.Ke/mH7kbm4PXb7K', 'habilitado': True}, 
+    {'id': 8, 'nombre': 'Probar Rut Ingresado', 'correo': 'probarrut@test.test', 'telefono': '123456789', 'rut': '66.666.666-6', 'contrasena': b'$2b$12$SLehN9Sc7GmxzNK2PDKzXOR5.ZeL9QVYkbU13IzYc6C9SMNGiUVcK', 'habilitado': True}, 
+    {'id': 9, 'nombre': 'Aquiles Baeza', 'correo': 'aquiles.baeza@test.test', 'telefono': '987654321', 'rut': '33.333.333-3', 'contrasena': b'$2b$12$RoFnCUzBZgKpS4bicFQGde3/mIJI77IDRh9uMpSqU7Ci.MJnpgB4W', 'habilitado': True}
+]

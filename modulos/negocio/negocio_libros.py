@@ -1,6 +1,6 @@
 from presentacion.solicitud_datos import solicitar_datos_libro
 from datos import listado_libros
-from PrettyTable import PrettyTable
+from prettytable import PrettyTable
 
 def procesar_libro():
     titulo_libro, isbn, editorial, paginas, categoria = solicitar_datos_libro()
